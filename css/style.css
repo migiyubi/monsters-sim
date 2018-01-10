@@ -1,0 +1,36 @@
+table {
+	table-layout: fixed;
+	width: 100%;
+	border: 1px solid #888;
+}
+
+td,th {
+    border: 1px solid #000;
+}
+
+td {
+	font-size: 150%;
+	font-weight: bold;
+	line-height: 2em;
+	text-align: center;
+}
+
+th {
+	text-shadow: 0 0 6px rgba(255, 255, 255, 1.0);
+	background-position: top center;
+}
+
+td:empty,th:empty {
+	background-image: linear-gradient(to top right,
+		transparent, transparent 49.5%, #000 49.5%, #000 50.5%, transparent 50.5%, transparent);
+}
+
+.advantage {
+	color: #fff;
+	background: #00f;
+}
+
+.disadvantage {
+	color: #fff;
+	background: #f00;
+}

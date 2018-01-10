@@ -1,0 +1,35 @@
+{
+  "name" : "ニート",
+  "max_hp" : 80,
+  "skill_set" : [
+    {
+      "name" : "寝りゃ何とかなるやろ",
+      "type" : "restore",
+      "value" : 20
+    },
+    {
+      "name" : "んだよこの糞ババア！！！！",
+      "type" : "attack",
+      "value" : 40
+    },
+    {
+      "name" : "ｧｧｱｱ゛ｱ゛ア゛ーーー！！！",
+      "type" : "buff",
+      "value" : 20
+    },
+    {
+      "name" : "親戚が来てるから・・",
+      "type" : "miss"
+    },
+    {
+      "name" : "飯出せっっってんの！！！",
+      "type" : "attack",
+      "value" : 50
+    },
+    {
+      "name" : "かあちゃん飯旨いよ・・・",
+      "type" : "restore",
+      "value" : 50
+    }
+  ]
+}

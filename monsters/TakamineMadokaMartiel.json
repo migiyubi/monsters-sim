@@ -1,0 +1,63 @@
+{
+  "name" : "熾天使・マルティエル",
+  "max_hp" : 100,
+  "skill_set" : [
+    {
+      "name" : "ホーリーソード",
+      "type" : "attack",
+      "value" : 20
+    },
+    {
+      "name" : "エンジェルアロー",
+      "type" : "attack",
+      "value" : 10
+    },
+    {
+      "name" : "あたりが眩しい…",
+      "type" : "special",
+      "skill_set" : [
+        {
+          "name" : "熾天使の慈悲",
+          "type" : "miss"
+        },
+        {
+          "name" : "神の鉄槌",
+          "type" : "attack",
+          "value" : 80
+        },
+        {
+          "name" : "熾天使の慈悲",
+          "type" : "miss"
+        },
+        {
+          "name" : "神の鉄槌",
+          "type" : "attack",
+          "value" : 80
+        },
+        {
+          "name" : "熾天使の慈悲",
+          "type" : "miss"
+        },
+        {
+          "name" : "神の鉄槌",
+          "type" : "attack",
+          "value" : 80
+        }
+      ]
+    },
+    {
+      "name" : "スターダスト",
+      "type" : "attack",
+      "value" : 40
+    },
+    {
+      "name" : "レインボーフォース",
+      "type" : "attack",
+      "value" : 30
+    },
+    {
+      "name" : "熾天使の慈悲",
+      "type" : "miss"
+    }
+  ]
+}

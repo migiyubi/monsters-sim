@@ -1,0 +1,35 @@
+{
+  "name" : "覇王",
+  "max_hp" : 130,
+  "skill_set" : [
+    {
+      "name" : "覇王の傲慢",
+      "type" : "miss"
+    },
+    {
+      "name" : "覇王アッパー",
+      "type" : "attack",
+      "value" : 40
+    },
+    {
+      "name" : "覇王の集中",
+      "type" : "buff",
+      "value" : 10
+    },
+    {
+      "name" : "覇王自己暗示",
+      "type" : "restore",
+      "value" : 50
+    },
+    {
+      "name" : "覇王カウンター",
+      "type" : "attack",
+      "value" : 50
+    },
+    {
+      "name" : "覇王ジャブ",
+      "type" : "attack",
+      "value" : 30
+    }
+  ]
+}

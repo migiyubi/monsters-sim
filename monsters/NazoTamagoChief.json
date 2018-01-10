@@ -1,0 +1,35 @@
+{
+  "name" : "課長",
+  "max_hp" : 140,
+  "skill_set" : [
+    {
+      "name" : "プロジェクトが頓挫",
+      "type" : "selfDestruct",
+      "value" : 10
+    },
+    {
+      "name" : "",
+      "type" : "transform",
+      "target_name" : "覇王"
+    },
+    {
+      "name" : "ご飯おいしー！",
+      "type" : "restore",
+      "value" : 50
+    },
+    {
+      "name" : "うふふ",
+      "type" : "restore",
+      "value" : 60
+    },
+    {
+      "name" : "プロジェクト成功だー！",
+      "type" : "restore",
+      "value" : 40
+    },
+    {
+      "name" : "ねむーい",
+      "type" : "miss"
+    }
+  ]
+}

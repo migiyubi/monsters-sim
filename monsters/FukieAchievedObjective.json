@@ -1,0 +1,127 @@
+{
+  "name" : "目的を果たしたふきゑ",
+  "max_hp" : 170,
+  "skill_set" : [
+    {
+      "name" : "山菜をかばって動けない",
+      "type" : "miss"
+    },
+    {
+      "name" : "焦りの体当たり",
+      "type" : "selfDestruct",
+      "value" : 10
+    },
+    {
+      "name" : "ふきゑの本気",
+      "type" : "special",
+      "skill_set" : [
+        {
+          "name" : "必殺！トラバサミ",
+          "type" : "attack",
+          "value" : 80
+        },
+        {
+          "name" : "かかれ！くくり罠",
+          "type" : "attack",
+          "value" : 20
+        },
+        {
+          "name" : "必殺！トラバサミ",
+          "type" : "attack",
+          "value" : 80
+        },
+        {
+          "name" : "この男の人わるい人",
+          "type" : "selfDestruct",
+          "value" : 140
+        },
+        {
+          "name" : "必殺！トラバサミ",
+          "type" : "attack",
+          "value" : 80
+        },
+        {
+          "name" : "神技！土砂崩れ",
+          "type" : "attack",
+          "value" : 120
+        }
+      ]
+    },
+    {
+      "name" : "ふきゑの本気",
+      "type" : "special",
+      "skill_set" : [
+        {
+          "name" : "必殺！トラバサミ",
+          "type" : "attack",
+          "value" : 80
+        },
+        {
+          "name" : "かかれ！くくり罠",
+          "type" : "attack",
+          "value" : 20
+        },
+        {
+          "name" : "必殺！トラバサミ",
+          "type" : "attack",
+          "value" : 80
+        },
+        {
+          "name" : "この男の人わるい人",
+          "type" : "selfDestruct",
+          "value" : 140
+        },
+        {
+          "name" : "必殺！トラバサミ",
+          "type" : "attack",
+          "value" : 80
+        },
+        {
+          "name" : "神技！土砂崩れ",
+          "type" : "attack",
+          "value" : 120
+        }
+      ]
+    },
+    {
+      "name" : "感激で泣いている",
+      "type" : "miss"
+    },
+    {
+      "name" : "ふきゑの本気",
+      "type" : "special",
+      "skill_set" : [
+        {
+          "name" : "必殺！トラバサミ",
+          "type" : "attack",
+          "value" : 80
+        },
+        {
+          "name" : "かかれ！くくり罠",
+          "type" : "attack",
+          "value" : 20
+        },
+        {
+          "name" : "必殺！トラバサミ",
+          "type" : "attack",
+          "value" : 80
+        },
+        {
+          "name" : "この男の人わるい人",
+          "type" : "selfDestruct",
+          "value" : 140
+        },
+        {
+          "name" : "必殺！トラバサミ",
+          "type" : "attack",
+          "value" : 80
+        },
+        {
+          "name" : "神技！土砂崩れ",
+          "type" : "attack",
+          "value" : 120
+        }
+      ]
+    }
+  ]
+}

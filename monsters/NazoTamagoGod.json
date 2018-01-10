@@ -1,0 +1,34 @@
+{
+  "name" : "†革命進化ゴッドタイタン†",
+  "max_hp" : 130,
+  "skill_set" : [
+    {
+      "name" : "ﾋﾟｰｶﾞｯｶﾞｶﾞｶﾞｯ",
+      "type" : "miss"
+    },
+    {
+      "name" : "ゴッド充電！！",
+      "type" : "restore",
+      "value" : 20
+    },
+    {
+      "name" : "ゴッドパンチ！！",
+      "type" : "attack",
+      "value" : 30
+    },
+    {
+      "name" : "ゴッドタックル！！",
+      "type" : "attack",
+      "value" : 70
+    },
+    {
+      "name" : "オイルチャージ！！！",
+      "type" : "restore",
+      "value" : 30
+    },
+    {
+      "name" : "ゴッドキック！！(スカッ",
+      "type" : "miss"
+    }
+  ]
+}

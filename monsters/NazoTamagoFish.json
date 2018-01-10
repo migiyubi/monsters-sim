@@ -1,0 +1,35 @@
+{
+  "name" : "魚類",
+  "max_hp" : 140,
+  "skill_set" : [
+    {
+      "name" : "水が欲しいよー！！",
+      "type" : "selfDestruct",
+      "value" : 10
+    },
+    {
+      "name" : "跳ねる",
+      "type" : "miss"
+    },
+    {
+      "name" : "雨だああああああ",
+      "type" : "restore",
+      "value" : 40
+    },
+    {
+      "name" : "死にたくないよ・・",
+      "type" : "restore",
+      "value" : 80
+    },
+    {
+      "name" : "",
+      "type" : "transform",
+      "target_name" : "†革命進化ゴッドタイタン†"
+    },
+    {
+      "name" : "苦しいよぉ・・・・・",
+      "type" : "selfDestruct",
+      "value" : 10
+    }
+  ]
+}

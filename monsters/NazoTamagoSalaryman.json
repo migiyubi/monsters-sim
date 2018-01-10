@@ -1,0 +1,35 @@
+{
+  "name" : "社畜",
+  "max_hp" : 130,
+  "skill_set" : [
+    {
+      "name" : "定時退社",
+      "type" : "miss"
+    },
+    {
+      "name" : "何かいい感じで",
+      "type" : "selfDestruct",
+      "value" : 10
+    },
+    {
+      "name" : "インフルで一週間休み",
+      "type" : "restore",
+      "value" : 60
+    },
+    {
+      "name" : "今日も残業",
+      "type" : "selfDestruct",
+      "value" : 20
+    },
+    {
+      "name" : "退職届",
+      "type" : "attack",
+      "value" : 130
+    },
+    {
+      "name" : "仕様変更",
+      "type" : "selfDestruct",
+      "value" : 10
+    }
+  ]
+}

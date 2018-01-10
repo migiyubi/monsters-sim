@@ -1,0 +1,66 @@
+{
+  "name" : "小さな山の神だったふきゑ",
+  "max_hp" : 200,
+  "skill_set" : [
+    {
+      "name" : "",
+      "type" : "transform",
+      "target_name" : "目的を果たしたふきゑ"
+    },
+    {
+      "name" : "やめて、いじめないで",
+      "type" : "miss"
+    },
+    {
+     "name" : "ふきゑの本気",
+      "type" : "special",
+      "skill_set" : [
+        {
+          "name" : "必殺！トラバサミ",
+          "type" : "attack",
+          "value" : 80
+        },
+        {
+          "name" : "かかれ！くくり罠",
+          "type" : "attack",
+          "value" : 20
+        },
+        {
+          "name" : "必殺！トラバサミ",
+          "type" : "attack",
+          "value" : 80
+        },
+        {
+          "name" : "この男の人わるい人",
+          "type" : "selfDestruct",
+          "value" : 140
+        },
+        {
+          "name" : "必殺！トラバサミ",
+          "type" : "attack",
+          "value" : 80
+        },
+        {
+          "name" : "神技！土砂崩れ",
+          "type" : "attack",
+          "value" : 120
+        }
+      ]
+    },
+    {
+      "name" : "焦って転ぶ",
+      "type" : "selfDestruct",
+      "value" : 20
+    },
+    {
+      "name" : "恨みのトラバサミ",
+      "type" : "attack",
+      "value" : 40
+    },
+    {
+      "name" : "焦って沼にはまる",
+      "type" : "selfDestruct",
+      "value" : 20
+    }
+  ]
+}

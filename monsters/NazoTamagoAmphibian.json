@@ -1,0 +1,35 @@
+{
+  "name" : "両生類",
+  "max_hp" : 130,
+  "skill_set" : [
+    {
+      "name" : "雨だー！",
+      "type" : "restore",
+      "value" : 30
+    },
+    {
+      "name" : "頭を抱える",
+      "type" : "miss"
+    },
+    {
+      "name" : "水浴びわーい！",
+      "type" : "restore",
+      "value" : 40
+    },
+    {
+      "name" : "カエル跳び",
+      "type" : "attack",
+      "value" : 50
+    },
+    {
+      "name" : "噛みつく",
+      "type" : "attack",
+      "value" : 30
+    },
+    {
+      "name" : "日光に照らされる",
+      "type" : "selfDestruct",
+      "value" : 40
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "name" : "堕天使・マスティマ",
+  "max_hp" : 70,
+  "skill_set" : [
+    {
+      "name" : "フォーリン・デス",
+      "type" : "attack",
+      "value" : 30
+    },
+    {
+      "name" : "ブラックソード",
+      "type" : "attack",
+      "value" : 30
+    },
+    {
+      "name" : "ダークネスフォール",
+      "type" : "special",
+      "skill_set" : [
+        {
+          "name" : "フォーリン・エンジェル",
+          "type" : "attack",
+          "value" : 60
+        },
+        {
+          "name" : "スティール・ソウル",
+          "type" : "attack",
+          "value" : 40
+        },
+        {
+          "name" : "スティール・ゼーレ",
+          "type" : "attack",
+          "value" : 40
+        },
+        {
+          "name" : "スティール・アームアム",
+          "type" : "attack",
+          "value" : 40
+        },
+        {
+          "name" : "スティール・アニマ",
+          "type" : "attack",
+          "value" : 40
+        },
+        {
+          "name" : "スティール・スピーリト",
+          "type" : "attack",
+          "value" : 40
+        }
+      ]
+    },
+    {
+      "name" : "シャドウスピア",
+      "type" : "attack",
+      "value" : 30
+    },
+    {
+      "name" : "ダークアロー",
+      "type" : "attack",
+      "value" : 30
+    },
+    {
+      "name" : "鋭い眼光を放っている",
+      "type" : "miss"
+    }
+  ]
+}
