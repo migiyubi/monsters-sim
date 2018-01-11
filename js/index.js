@@ -70,7 +70,7 @@ class Simulator {
 
 class Renderer {
     constructor(precision = 3, container = document.body) {
-        this.precisionCoef = Math.pow(10, precision);
+        this.precision = precision;
         this.container = container;
         this.cellElements = [];
         this.cellStride = 0;
@@ -123,8 +123,8 @@ class Renderer {
     update(index0, index1, rate) {
         const cell0 = this.cellElements[index0*this.cellStride+index1];
         const cell1 = this.cellElements[index1*this.cellStride+index0];
-        cell0.textContent = `.${Math.round(rate*this.precisionCoef)}`;
-        cell1.textContent = `.${Math.round((1.0-rate)*this.precisionCoef)}`;
+        cell0.textContent = rate.toFixed(this.precision).slice(1);
+        cell1.textContent = (1.0-rate).toFixed(this.precision).slice(1);
 
         if (rate > 0.5) {
             cell0.classList.add('advantage');
