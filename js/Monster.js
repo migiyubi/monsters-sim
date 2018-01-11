@@ -77,7 +77,11 @@ class Monster {
             skills.push(Monster._loadSkillFromJson(child));
         }
 
-        return new SkillSet(skills, json.name);
+        switch (json.type) {
+            case 'attach_ailment': return new SkillAttachAilment(json.name, json.ailment_name, skills);
+            case 'special'       :
+            default: return new SkillSet(skills, json.name);
+        }
     }
 
     static _loadSkillFromJson(json) {
@@ -93,30 +97,13 @@ class Monster {
             case 'transform'        : return new SkillTransform(json.name, json.target_name);
             case 'transformOpponent': return new SkillTransformOpponent(json.name);
             case 'gacya'            : return new SkillGacya(json.name, json.value);
-            case 'attach_ailment'   : return Monster._loadAttachAilmentFromJson(json);
+            case 'attach_ailment'   : return Monster._loadSkillSetFromJson(json);
+            case 'remove'           : return new AilmentRemove(json.name);
+            case 'cancel_action'    : return new AilmentCancelAction(json.name);
+            case 'cancel_support'   : return new AilmentCancelSupport(json.name);
             default: console.warn('unknown skill type.', json.type); return null;
         }
     }
-
-    static _loadAttachAilmentFromJson(json) {
-        const ailments = [];
-
-        for (const child of json.ailment_set) {
-            ailments.push(Monster._loadAilmentFromJson(child));
-        }
-
-        return new SkillAttachAilment(json.name, json.ailment_name, ailments);
-    }
-
-    static _loadAilmentFromJson(json) {
-        switch (json.type) {
-            case 'remove'        : return new AilmentRemove(json.name);
-            case 'cancel_action' : return new AilmentCancelAction(json.name);
-            case 'cancel_support': return new AilmentCancelSupport(json.name);
-            default: console.warn('unknown ailment type.', json.type); return null;
-        }
-    }
-
 }
 
 class MonsterGenerator {

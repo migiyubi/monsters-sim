@@ -6,7 +6,7 @@
       "name" : "フラッシュ",
       "type" : "attach_ailment",
       "ailment_name" : "暗闇",
-      "ailment_set" : [
+      "skill_set" : [
         {
           "name" : "ダメージ系不発",
           "type" : "cancel_action"
@@ -37,7 +37,7 @@
       "name" : "スピリッツウィズウィン",
       "type" : "attach_ailment",
       "ailment_name" : "沈黙",
-      "ailment_set" : [
+      "skill_set" : [
         {
           "name" : "なおる",
           "type" : "remove"
