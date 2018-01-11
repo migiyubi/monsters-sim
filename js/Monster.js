@@ -101,6 +101,7 @@ class Monster {
             case 'remove'           : return new AilmentRemove(json.name);
             case 'cancel_action'    : return new AilmentCancelAction(json.name);
             case 'cancel_support'   : return new AilmentCancelSupport(json.name);
+            case 'damage_and_cancel_support': return new AilmentDamageAndCancelSupport(json.name, json.value);
             default: console.warn('unknown skill type.', json.type); return null;
         }
     }

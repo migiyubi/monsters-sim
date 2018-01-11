@@ -61,3 +61,20 @@ class AilmentCancelSupport extends Skill {
         return null;
     }
 }
+
+class AilmentDamageAndCancelSupport extends Skill {
+    constructor(name, value) {
+        super(name);
+
+        // TODO: the damage increases depending caster's buff. correct?
+        this.subSkill = new SkillSelfDestruct(name, value);
+        this.subAilment = new AilmentCancelSupport(name);
+    }
+
+    apply(caster, target) {
+        const logSkill = this.subSkill.apply(caster, target);
+        const logAilment = this.subAilment.apply(caster, target);
+
+        return logSkill;
+    }
+}

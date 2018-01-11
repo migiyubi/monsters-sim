@@ -36,7 +36,7 @@
     {
       "name" : "スピリッツウィズウィン",
       "type" : "attach_ailment",
-      "ailment_name" : "沈黙",
+      "ailment_name" : "沈黙ダメージ",
       "skill_set" : [
         {
           "name" : "なおる",
@@ -52,15 +52,18 @@
         },
         {
           "name" : "ダメージ以外不発",
-          "type" : "cancel_support"
+          "type" : "damage_and_cancel_support",
+          "value" : 10
         },
         {
           "name" : "ダメージ以外不発",
-          "type" : "cancel_support"
+          "type" : "damage_and_cancel_support",
+          "value" : 10
         },
         {
           "name" : "ダメージ以外不発",
-          "type" : "cancel_support"
+          "type" : "damage_and_cancel_support",
+          "value" : 10
         }
       ]
     },
